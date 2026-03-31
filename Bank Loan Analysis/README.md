@@ -98,8 +98,6 @@ The dashboard helps stakeholders:
 
 ## 📸 Screenshots
 
-(Upload your three exported images to a `screenshots/` folder in the repo)
-
 1. `b1.png` → Summary Dashboard
 2. `b2.png` → Overview Visualizations
 3. `b3.png` → Details Table View
