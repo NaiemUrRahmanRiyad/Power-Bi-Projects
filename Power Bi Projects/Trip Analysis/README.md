@@ -1,10 +1,10 @@
-# 🚖 Uber Trip Analysis Dashboard | Power BI Portfolio Project
+# 🚖 Jaboo Trip Analysis Dashboard 
 
 ---
 
 ## 📌 Overview
 
-This project presents a **fully interactive Uber Trip Analysis Dashboard** built using **Power BI**, focused on transforming raw trip data into **actionable business insights**.
+This project presents a **fully interactive  Trip Analysis Dashboard** built using **Power BI**, focused on transforming raw trip data into **actionable business insights**.
 
 The goal of this project is to simulate a **real-world business intelligence scenario**, where stakeholders can:
 - Monitor performance  
