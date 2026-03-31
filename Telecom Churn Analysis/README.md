@@ -1,6 +1,6 @@
 # 📉 End-to-End Customer Churn Analysis
 
-![Project Banner](https://pivotalstats.com/wp-content/uploads/2024/09/Project-Churn-Analysis.jpg)
+![Project Banner]((https://i.ibb.co.com/cKH30rBZ/c1.png))
 
 > A complete data analytics project covering ETL, Power BI dashboarding, and Machine Learning-based churn prediction for a telecom company.
 
