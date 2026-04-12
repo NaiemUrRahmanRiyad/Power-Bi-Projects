@@ -1,8 +1,11 @@
 # 🏥 Hospital Monitoring Dashboard — Power BI
 
 ![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+![Dataset](https://img.shields.io/badge/Dataset-55%2C500%20Records-7B2D8B?style=for-the-badge&logo=databricks&logoColor=white)
 ![Status](https://img.shields.io/badge/Status-Complete-brightgreen?style=for-the-badge)
 ![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)
+![Billing](https://img.shields.io/badge/Total%20Billing-%241.417B-F2C811?style=for-the-badge&logo=stripe&logoColor=black)
+![Hospitals](https://img.shields.io/badge/Hospitals-10%20Major-e53935?style=for-the-badge&logo=redcross&logoColor=white)
 
 > A comprehensive, multi-page Power BI dashboard for monitoring hospital operations, patient demographics, admission trends, and treatment costs — designed for healthcare administrators and analysts.
 
@@ -11,13 +14,13 @@
 ## 📸 Dashboard Preview
 
 ### Page 1 — Treatment Cost
-![Treatment Cost Page](h1.png)
+![Treatment Cost Page](screenshots/h1.png)
 
 ### Page 2 — Key Trend
-![Key Trend Page](h2.png)
+![Key Trend Page](screenshots/h2.png)
 
 ### Page 3 — Patient Demographic
-![Patient Demographic Page](h3.png)
+![Patient Demographic Page](screenshots/h3.png)
 
 ---
 
@@ -46,7 +49,7 @@ The dashboard enables:
 - Revenue and billing breakdowns across hospitals and LOS groups
 - Patient condition profiling and test result summaries
 
-Total records analyzed: **~56,000 patients** across **10 major hospitals**, generating **$1.417 Billion** in total billing.
+Total records analyzed: **55,500 patients** across **10 major hospitals**, generating **$1.417 Billion** in total billing.
 
 ---
 
@@ -109,7 +112,7 @@ This page provides a **profile of patients** — their conditions, test results,
 | Feature | Description |
 |---|---|
 | 🔀 Multi-Page Navigation | Intuitive tab-style navigation between 3 dashboard pages |
-| 🎛️ Dynamic Slicers | Filter by Year, Month, Condition, and more — all visuals update in sync |
+| 🎛️ Dynamic Slicers | Filter by Year, Month, Condition — all visuals update in sync |
 | 💡 KPI Cards | Six consistent KPI tiles across all pages for quick summary |
 | 🌲 Decomposition Tree | Interactive drill-down from Total Billing to Gender-level granularity |
 | 🗺️ Treemap | Visual revenue contribution by hospital at a glance |
@@ -184,7 +187,7 @@ YoY Change % = DIVIDE([Current Year Value] - [Prior Year Value], [Prior Year Val
 |---|---|---|
 | Select Year | All Pages | All, 2021, 2022... |
 | Select Month | Key Trend, Patient Demographic | All, Jan–Dec |
-| Select Condition | Treatment Cost, Key Trend, Patient Demographic | All, Arthritis, Asthma, Cancer, Diabetes, Hypertension, Obesity |
+| Select Condition | All Pages | All, Arthritis, Asthma, Cancer, Diabetes, Hypertension, Obesity |
 
 All slicers are cross-filtered — selecting a value updates every visual on the page simultaneously.
 
@@ -244,7 +247,7 @@ hospital-monitoring-dashboard/
 ├── 📊 HospitalMonitoringDashboard.pbix   # Main Power BI project file
 │
 ├── 📁 data/
-│   ├── patients.csv                      # Raw patient records
+│   ├── patients.csv                      # Raw patient records (55,500 rows)
 │   ├── billing.csv                       # Billing data
 │   └── hospitals.csv                     # Hospital reference table
 │
